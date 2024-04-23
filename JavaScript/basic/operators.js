@@ -1,19 +1,14 @@
-//Q1 create two constants, add them and assign to a new constants
 
 
 
-//Check below code, output should be false by comparing. console.log the answer
-const a = 10
-const b = '10'
+// generate a random number between 0 and 5, if it is lesser than 3,
+//console.log "lesser than 3" else "Greater"
 
+const randomNumber = Math.floor(Math.random() * 6)
+console.log(randomNumber)
 
-//answer #1
-const x =10
-const y = 200
-const sum = x + y
-console.log(sum)
-
-
- 
-// ANSWER #2
-console.log(a === b)
+if (randomNumber < 3) {
+    console.log('lesser than 3')
+} else {
+    console.log('Greater than 3')
+}
