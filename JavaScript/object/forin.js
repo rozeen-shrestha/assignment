@@ -13,7 +13,7 @@ const scores = {
   for (let item in scores){
     sum+=gradeMapping[scores[item]]
   }
-  console.log(sum)
+  console.log(sum) 
     
   
   // 260
