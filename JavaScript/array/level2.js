@@ -12,7 +12,9 @@ console.log(arr.filter(item => item !== elementToRemove))
 
 //Q3 Multiply each element of the array by a constant value 5 and log the modified array to the console.
 //expected output [15,10]
-console.log(arr.map((item)=>{return item*5}))
+console.log(arr.map((item)=>{
+    return item*5}
+))
 
 
 //find intersection (common elements) of arr and arr2

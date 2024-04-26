@@ -36,7 +36,7 @@ console.log(result)
 
 
 // Find the index of a specific element in the array. Log the index to the console. 
-//expected output: 3
+//expected output: 
 
 const allNum = [3, 5, 2, 8, 5];
 const searchElement = 2;
