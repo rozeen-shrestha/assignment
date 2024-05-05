@@ -1,6 +1,7 @@
 'use client'
 import React,{useState} from 'react'
 import {Button} from "@nextui-org/react";
+import { resolveMotionValue } from 'framer-motion';
   const page = () => {
     // why created state? 
     // let num= 0 will cahnge but not update in the UI
@@ -40,8 +41,13 @@ import {Button} from "@nextui-org/react";
   
       switch (symbol) {
           case '=':
+            if(num == ""){
+              return;
+            }
+            else{
               const result = eval(num);
               setNum(result);
+            }
               break;
           case '⌫':
               if (num.length > 0) {
